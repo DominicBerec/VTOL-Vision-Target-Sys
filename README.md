@@ -6,7 +6,7 @@ It's a bench prototype, not a finished flight system. The full design is below, 
 
 ## The bigger system
 
-The goal was a target acquisition system for a VTOL aircraft. I designed the architecture and put together a 5-week roadmap and parts list (full doc in [`docs/roadmap.pdf`](docs/roadmap.pdf)).
+The goal was a target acquisition system for a VTOL aircraft. I designed the architecture and put together a 5-week roadmap and parts list (full doc in [`docs/roadmap.pdf`](/roadmap.pdf)).
 
 ```
 CSI camera ──> Raspberry Pi 5 (YOLO + OpenCV) ──MAVLink over UART (TELEM2)──> Pixhawk (ArduPilot)
